@@ -1,0 +1,121 @@
+openapi: 3.0.1
+info:
+  title: Basic Calculator
+  description: Arithmetics is just a call away!
+  version: '1.0'
+servers:
+  - url: http://apim-apiops-hg-dev.azure-api.net/calc
+paths:
+  /api/add:
+    get:
+      tags:
+        - Calculator
+      summary: Add two integers
+      description: Add two integers
+      operationId: Add-two-integers
+      parameters:
+        - name: a
+          in: query
+          description: Format - int32. First operand. Default value is 51.
+          schema:
+            type: integer
+            format: int32
+            default: 51
+        - name: b
+          in: query
+          description: Format - int32. Second operand. Default value is 49.
+          schema:
+            type: integer
+            format: int32
+            default: 49
+      responses:
+        '200':
+          description: Success
+  /api/sub:
+    get:
+      tags:
+        - Calculator
+      summary: Subtract two integers
+      description: Subtract two integers
+      operationId: get-api-sub
+      parameters:
+        - name: a
+          in: query
+          description: Format - int32. First operand. Default value is 51.
+          schema:
+            type: integer
+            format: int32
+            default: 51
+        - name: b
+          in: query
+          description: Format - int32. Second operand. Default value is 49.
+          schema:
+            type: integer
+            format: int32
+            default: 49
+      responses:
+        '200':
+          description: Success
+  /api/mul:
+    get:
+      tags:
+        - Calculator
+      summary: Multiply two integers
+      description: Multiply two integers
+      operationId: get-api-mul
+      parameters:
+        - name: a
+          in: query
+          description: Format - int32. First operand. Default value is 51.
+          schema:
+            type: integer
+            format: int32
+            default: 51
+        - name: b
+          in: query
+          description: Format - int32. Second operand. Default value is 49.
+          schema:
+            type: integer
+            format: int32
+            default: 49
+      responses:
+        '200':
+          description: Success
+  /api/div:
+    get:
+      tags:
+        - Calculator
+      summary: Divide two integers
+      description: Divide two integers
+      operationId: get-api-div
+      parameters:
+        - name: a
+          in: query
+          description: Format - int32. First operand. Default value is 51.
+          schema:
+            type: integer
+            format: int32
+            default: 51
+        - name: b
+          in: query
+          description: Format - int32. Second operand. Default value is 49.
+          schema:
+            type: integer
+            format: int32
+            default: 49
+      responses:
+        '200':
+          description: Success
+components:
+  securitySchemes:
+    apiKeyHeader:
+      type: apiKey
+      name: Ocp-Apim-Subscription-Key
+      in: header
+    apiKeyQuery:
+      type: apiKey
+      name: subscription-key
+      in: query
+security:
+  - apiKeyHeader: [ ]
+  - apiKeyQuery: [ ]
