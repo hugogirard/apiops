@@ -2,4 +2,4 @@ apimServiceName: apim-prod-wiehtffff6bys
 apis:
   - name: basic-calculator
     properties:
-      - serviceUrl: https://apim-prod-wiehtffff6bys.azure-api.net
+       serviceUrl: https://apim-prod-wiehtffff6bys.azure-api.net
