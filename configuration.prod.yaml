@@ -1,0 +1,4 @@
+apimServiceName: apim-prod-wiehtffff6bys
+apis:
+  - name: basic-calculator
+    serviceUrl: https://prod-service-url.com
