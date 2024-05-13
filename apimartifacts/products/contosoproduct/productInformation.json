@@ -1,9 +1,0 @@
-{
-  "properties": {
-    "approvalRequired": false,
-    "description": "Contoso Product",
-    "displayName": "ContosoProduct",
-    "state": "published",
-    "subscriptionRequired": true
-  }
-}
