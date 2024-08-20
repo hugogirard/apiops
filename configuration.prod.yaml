@@ -1,5 +1,5 @@
-apimServiceName: apim-prod-wiehtffff6bys
+apimServiceName: apim-prod2-hg
 apis:
-  - name: basic-calculator
+  - name: fibobanaci
     properties:
-       serviceUrl: https://web-prod-wiehtffff6bys.azurewebsites.net
+       serviceUrl: https://fiboprodhg-haeahkffhubxbqhs.eastus-01.azurewebsites.net
