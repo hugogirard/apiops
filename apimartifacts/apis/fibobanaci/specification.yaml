@@ -9,6 +9,7 @@ paths:
   /:
     get:
       summary: Get sequence
+      description: Get sequence
       operationId: get-sequence
       parameters:
         - name: seq
@@ -18,7 +19,7 @@ paths:
             type: number
       responses:
         '200':
-          description: 
+          description: ''
 components:
   securitySchemes:
     apiKeyHeader:
