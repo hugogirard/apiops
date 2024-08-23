@@ -1,0 +1,19 @@
+{
+  "properties": {
+    "apiRevision": "1",
+    "authenticationSettings": {},
+    "description": "",
+    "displayName": "Fibonacci",
+    "isCurrent": true,
+    "path": "fib",
+    "protocols": [
+      "https"
+    ],
+    "serviceUrl": "https://fibodevhg-dna8bpfkcfg4f2fh.eastus-01.azurewebsites.net",
+    "subscriptionKeyParameterNames": {
+      "header": "Ocp-Apim-Subscription-Key",
+      "query": "subscription-key"
+    },
+    "subscriptionRequired": true
+  }
+}
