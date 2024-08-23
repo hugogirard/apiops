@@ -4,7 +4,6 @@ info:
   description: 'A sample API with information related to a technical conference.  The available resources  include *Speakers*, *Sessions* and *Topics*.  A single write operation is available to provide  feedback on a session.'
   version: '1.0'
 servers:
-  - url: http://apim-dev2-hg.azure-api.net/test
   - url: https://apim-dev2-hg.azure-api.net/test
 paths:
   /sessions:
