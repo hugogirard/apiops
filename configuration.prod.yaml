@@ -1,5 +1,5 @@
 apimServiceName: apim-prod2-hg
 apis:
-  - name: fibobanaci
+  - name: fibonacci
     properties:
        serviceUrl: https://fiboprodhg-haeahkffhubxbqhs.eastus-01.azurewebsites.net
