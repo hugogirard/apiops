@@ -1,0 +1,10 @@
+{
+  "properties": {
+    "approvalRequired": true,
+    "description": "Internal API only",
+    "displayName": "Internal APIS",
+    "state": "published",
+    "subscriptionRequired": true,
+    "subscriptionsLimit": 1
+  }
+}
