@@ -1,0 +1,8 @@
+{
+  "properties": {
+    "displayName": "All APIs subscription",
+    "allowTracing": false,
+    "scope": "/apis",
+    "state": "active"
+  }
+}
