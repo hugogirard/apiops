@@ -116,7 +116,7 @@ jobs:
         shell: pwsh
 
       - name: publish artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         env:
           API_MANAGEMENT_SERVICE_OUTPUT_FOLDER_PATH: apimartifacts  # change this to the artifacts folder  
         with:
