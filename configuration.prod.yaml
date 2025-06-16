@@ -1,4 +1,4 @@
-apimServiceName: apim-prod-hg2
+apimServiceName: apimmnghg2
 # apis:
 #   - name: fibonacci
 #     properties:
