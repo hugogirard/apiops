@@ -419,9 +419,7 @@ paths:
             schema:
               type: string
               format: binary
-            examples:
-              default:
-                value: 
+            example: ''
       responses:
         '200':
           description: successful operation
