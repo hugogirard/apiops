@@ -1,9 +1,0 @@
-{
-  "properties": {
-    "displayName": "Product Starter subscription",
-    "scope": "/subscriptions/6e37307e-394c-478a-8404-4e441b3dfc1d/resourceGroups/rg-apim-workspace/providers/Microsoft.ApiManagement/service/apimmnghg2/products/starter",
-    "allowTracing": false,
-    "ownerId": "/subscriptions/6e37307e-394c-478a-8404-4e441b3dfc1d/resourceGroups/rg-apim-workspace/providers/Microsoft.ApiManagement/service/apimmnghg2/users/1",
-    "state": "active"
-  }
-}
